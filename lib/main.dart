@@ -1,5 +1,4 @@
 import 'package:best/pages/Homepage.dart';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +17,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
+     routes: {
+        AsadBek.id:(context)=>const AsadBek(),
+
+
+     },
 
     );
   }
 }
+

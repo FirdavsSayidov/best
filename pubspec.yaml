@@ -12,9 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-
   cupertino_icons: ^1.0.2
+  flutter_speed_dial: 6.0.0
+  fluttertoast: 8.0.9
+  fancy_bottom_navigation: 0.3.3
+
 
 dev_dependencies:
   flutter_test:
